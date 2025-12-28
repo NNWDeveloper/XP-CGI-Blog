@@ -13,7 +13,7 @@ void print_html_start() {
     printf("<title>Retro CGI Blog</title>");
     
     printf(" <!-- This blog is using CGI/EXE old skuul method (Handwritten in C) -->");
-    printf(" <!-- Matěj Truxa - © 2025 All rights reserved. -->");
+    printf(" <!-- Author: Matěj Truxa - © 2025 All rights reserved. -->");
     
 	printf("<link rel='stylesheet' href='/blog/style.css'>");
 
@@ -29,9 +29,9 @@ void print_html_end() {
 }
 
 void print_posts() {
-    FILE *f = fopen("C:/xampp/cgi-bin/blog/posts.txt", "r");
+    FILE *f = fopen("posts.txt", "r");
     if (!f) {
-        printf("<p>Nelze otevřít posts.txt</p>");
+        printf("<p>Cannot open posts.txt</p>");
         return;
     }
 
