@@ -1,0 +1,45 @@
+body {
+    background: #008080;
+    font-family: Tahoma, Arial;
+    font-size: 12px;
+}
+
+.window {
+    width: 600px;
+    margin: 40px auto;
+    border: 2px solid #000;
+    background: #C0C0C0;
+}
+
+.titlebar {
+    background: linear-gradient(to right, #000080, #1084d0);
+    color: white;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 10px;
+    background: #E0E0E0;
+}
+
+.post {
+    border: 1px solid #808080;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+.post h2 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.date {
+    font-size: 10px;
+    color: #555;
+}
+
+.text {
+    margin-top: 6px;
+}

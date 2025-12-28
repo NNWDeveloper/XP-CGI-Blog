@@ -1,0 +1,15 @@
+===POST===
+TITLE: My first blog
+DATE: 1.1.2003
+CONTENT:
+Welcome to my retro XP era blog.
+Proudly powered by CGI/EXE written in C.
+===END===
+
+===POST===
+TITLE: Windows XP rulez
+DATE: 25.10.2004
+CONTENT:
+XP is the best OS.
+And Internet Explorer 6 is future!
+===END===
